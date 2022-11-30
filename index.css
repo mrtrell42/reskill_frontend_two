@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1500px;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border: solid red 2px; */
+	background-color: white;
+	height: 5rem;
+}
+.navigation_left {
+	font-size: 15px;
+	margin-left: 2.5rem;
+}
+.navigation_right {
+	display: flex;
+	gap: 1rem;
+}
+
+.navigation_right a {
+	text-decoration: none;
+	color: black;
+	/* gap: 150rem; */
+	cursor: pointer;
+	margin-right: 2.5rem;
+	font-size: 1.3rem;
+}
+
+.landing_page_container {
+	/* border: red solid 2px; */
+	height: 35rem;
+
+	background-image: url(img/hero-banner.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	/* background-repeat: no-repeat; */
+}
+.cta {
+	/* border: solid yellow 2px; */
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	line-height: 3em;
+	align-items: center;
+}
+
+.cta span {
+	margin-top: 190px;
+	color: white;
+	font-size: 2rem;
+	letter-spacing: 1.4rem;
+}
+
+.cta p {
+	color: white;
+	margin-top: 1.5rem;
+	font-size: 1.5rem;
+}
+
+.cta button {
+	width: 10rem;
+	padding: 24px;
+	border: none;
+	margin-top: 1.5rem;
+}
